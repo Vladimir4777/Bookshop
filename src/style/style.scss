@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&family=Open+Sans&display=swap');
+@import './header.scss';
+@import './bannerSection.scss';
+@import './booksSection.scss';
+@import './media.scss';
+@import './style/normalize.css';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h3 {
+    margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-weight: 500;
+    background: #FFFFFF;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+
+
+
+
+

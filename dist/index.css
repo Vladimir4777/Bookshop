@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&family=Open+Sans&display=swap);
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+.header{overflow-x:hidden;max-height:120px}.header__wraper{position:fixed;z-index:100;top:0;padding:45px 700px 20px 210px;display:flex;justify-content:space-between;align-items:center;background:#fff}.header__logo{font-weight:700;font-size:24px;line-height:29px;color:#1c2a39;cursor:pointer;margin-right:180px;margin-left:10px}.nav__list{width:450px;display:flex;justify-content:space-between;margin-right:200px}.nav__item{margin-right:45px;font-weight:700;font-size:10px;line-height:12px;text-transform:uppercase}.nav__item:last-child{margin-right:0}.nav__link{color:#5c6a79}.nav__link:hover{color:#1c2a39;font-weight:900;transition:.2s ease-in}.nav__link:focus{color:#1c2a39;font-weight:900;transition:.2s ease-in}.header__icon-wrap{width:120px;display:flex;justify-content:space-between;cursor:pointer}.header__icon-shopbag--number{position:absolute;width:13px;height:13px;border-radius:50%;background:#ff353a;color:#fff;margin:8px 0px 0px 4px;font-weight:500;font-size:10px;text-align:center;padding:1px 0 0 4px}.banner{margin-top:120px;overflow-x:hidden}.banner__wrapper{max-width:1120px;overflow:hidden}.img__wrap{display:flex;position:relative;left:0;transition:1s}.banner__img{width:100%;height:auto}.banner__dots-wrap{width:70px;display:flex;margin:0 auto}.dots{margin-top:20px;margin-right:10px;width:12px;height:12px;border-radius:50%;cursor:pointer;background:#efeef6;transition:background-color .2s ease-in}.active{background:#9e98dc}.one-link{position:absolute;max-width:149px;max-height:204px;left:1250px;top:195px;background:#9e98dc}.banner__link-change{padding:102px 20px 5px;font-weight:700;font-size:18px;line-height:22px;text-transform:uppercase;color:#1c2a39}.two-link{position:absolute;max-width:158px;max-height:273px;left:1350px;top:475px;background:#ff8fe6}.banner__link-top{padding:150px 47px 5px 21px;font-weight:700;font-size:18px;line-height:22px;text-transform:uppercase;color:#1c2a39}.banner__link-arrow{margin-left:20px;margin-bottom:20px;cursor:pointer}.banner__link:hover{opacity:.8;transition:.2s ease-in}.books{margin-top:50px;overflow-x:hidden}.books__content__categories{min-width:350px}.books__content__categories .books__content__categories__list{font-size:12px;left:0px;position:relative;background-color:#efeef6;padding-top:40px;padding-right:0px;padding-bottom:60px;padding-left:50px;line-height:15px;list-style:none}.books__content__categories .books__content__categories__list ::marker{color:#9e98dc;font-size:20px}.books__content__categories .books__content__categories__list .books__content__categories__list__item{color:#5c6a79;cursor:pointer;margin-bottom:23px;font-size:15px}.books__content__categories .books__content__categories__list .books__content__categories__list__item:hover{font-size:18px;font-weight:700;transition:.2s ease-in}.books__content__categories .books__content__categories__list .books__content__categories__list__item:focus{font-size:18px;font-weight:700}.books__content__categories .books__content__categories__list .active__link{font-weight:700;list-style:disc}.books__content__card-wrapper{margin-left:-30px;display:flex;align-items:center;justify-content:flex-start;margin-bottom:95px;margin-top:50px;margin-right:200px}.books__content__card-wrapper:nth-child(even){margin-right:0}.books__content__card{display:flex;justify-content:flex-start;align-items:center;flex-wrap:wrap}.books__content__card__image{width:auto;height:100%;filter:drop-shadow(5px 5px 10px rgba(128, 128, 128, 0.402))}.books__content__card__description{max-width:300px;font-family:"Open Sans",sans-serif;font-weight:400;font-size:10px;line-height:14px;text-transform:capitalize;color:#5c6a79;display:flex;flex-direction:column;color:#5c6a79}.books__content__card__description__authors{margin-bottom:5px;margin-left:35px;margin-top:5px}.books__content__card__description__title{font-weight:700;font-size:16px;line-height:20px;color:#1c2a39;margin-left:35px;margin-bottom:5px}.books__content__card__description__rating{color:#daa520;margin-bottom:15px;margin-left:35px}.books__content__card__description__text{margin-left:35px;margin-bottom:10px}.books__content__card__description__price{font-weight:700;font-size:13px;line-height:16px;text-transform:uppercase;color:#1c2a39;margin-left:35px;margin-bottom:10px}.books__content__card__description__button-cart{width:155px;height:35px;margin-left:35px;background:#fff;font-weight:700;font-size:8px;line-height:10px;text-transform:uppercase;color:#4c3db2;cursor:pointer;border:1px solid #4c3db2}.books__content__card__description__button-cart:hover,.books__btn-load:hover{background:#6757cf;color:#fff;opacity:.8;transition:.5s ease-in}.books__btn-load{width:155px;height:38px;background:#fff;font-weight:700;font-size:8px;line-height:10px;text-transform:uppercase;color:#4c3db2;cursor:pointer;border:1px solid #4c3db2;margin-left:700px;margin-bottom:30px}.active__btn{border-color:#eeedf5;color:#5c6a79}.books__wrapper{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-right:160px;margin-top:80px}.main__books__content{position:relative;top:0;left:-50px;width:424px;height:350px;display:flex;justify-content:space-between;align-items:center}.books__content-wrap{display:flex}.books__section-wrapper{display:flex}@media(max-width: 1500px){.one-link{left:1240px;top:195px}.two-link{left:1330px}}@media(max-width: 1450px){.one-link{left:1210px}.two-link{left:1300px}}@media(max-width: 1400px){.one-link{left:1190px}.two-link{left:1270px}.header__wraper{padding:45px 200px 20px 150px}.books__content__card-wrapper{margin-right:150px}}@media(max-width: 1350px){.one-link{left:1150px}.two-link{left:1240px}.header__wraper{padding:45px 200px 20px 120px}.books__content__card-wrapper{margin-right:150px}}@media(max-width: 1300px){.one-link{left:1130px}.banner__link-change{font-size:15px;line-height:18px}.two-link{left:1220px}.banner__link-top{font-size:15px;line-height:18px}.header__wraper{padding:45px 200px 20px 100px}.books__content__card-wrapper{margin-right:90px;margin-left:-50px}.books__btn-load{margin-left:680px}}@media(max-width: 1250px){.one-link{left:1100px}.two-link{left:1200px}.header__wraper{padding:45px 200px 20px 80px}.books__content__card-wrapper{margin-right:200px}.books__content__card__description{max-width:200px;font-size:10px;line-height:12px}}@media(max-width: 1210px){.one-link{left:1090px}.two-link{left:1180px}.header__wraper{padding:45px 200px 20px 60px}.books__content__card-wrapper{margin-right:190px}.books__content__card__description{max-width:200px;font-size:10px;line-height:12px}}@media(max-width: 1200px){.one-link{left:1070px}.banner__link-change{font-size:12px;line-height:14px;padding:102px 30px 5px}.two-link{left:1160px}.banner__link-top{font-size:12px;line-height:14px}}@media(max-width: 1150px){.one-link{left:1050px}.banner__link-change{font-size:12px;line-height:14px}.two-link{left:1140px}.banner__link-top{font-size:12px;line-height:14px}.books__content__card-wrapper{margin-right:140px}.books__content__card__description{max-width:180px}.header__logo{margin-right:180px;margin-left:30px}.header__wraper{padding:45px 200px 20px 0px}}@media(max-width: 1056px){.one-link{display:none}.two-link{display:none}.books__content__card-wrapper{margin-right:120px}.books__content__card__description{max-width:160px}.header__logo{margin-right:120px;margin-left:0px}.books__btn-load{margin-left:650px}}@media(max-width: 1000px){.books__content__card-wrapper{margin-right:120px}.books__content__card__description{max-width:160px}.header__logo{margin-right:90px;margin-left:10px}.nav__list{margin-right:150px}.books__btn-load{margin-left:500px}}@media(max-width: 950px){.books__content__card__description{max-width:250px}.header__logo{margin-right:100px;margin-left:10px}.nav__list{margin-right:90px}.books__btn-load{margin-left:450px}.books__content__card-wrapper{margin-left:70px;margin-bottom:50px;margin-top:10px}}@media(max-width: 900px){.books__content__card__description{max-width:250px}.header__wraper{width:100%;justify-content:space-between;padding:45px 0px 20px 0px}.header__logo{margin-right:0px;margin-left:5px}.header__icon-wrap{margin-right:5px}.nav__list{display:none}.books__btn-load{margin-left:400px}}@media(max-width: 800px){.books__content__categories__list{line-height:12px;font-size:10px}.books__content__card-wrapper{margin-left:-50px}.books__btn-load{margin-left:350px}.books__content__categories__list{max-width:250px;margin-right:0}}@media(max-width: 730px){.books__btn-load{margin-left:300px}.books__content__card__description{max-width:200px}.books__content__card-wrapper{margin-left:-50px}}@media(max-width: 630px){.books__btn-load{margin-left:250px}.books__content__card__description{max-width:180px}.books__content__card-wrapper{margin-left:-100px}}@media(max-width: 570px){.books__btn-load{margin-left:200px}.books__content__card-wrapper{margin-left:-150px}.books__content__card__description{max-width:180px;font-size:8px;line-height:10px}.books__content__card__description__title{font-weight:700;font-size:12px;line-height:14px;color:#1c2a39;margin-left:15px;margin-bottom:5px}.books__content__card__description__authors{margin-left:15px}.books__content__card__description__rating{margin-left:15px}.books__content__card__description__text{margin-left:15px;margin-bottom:10px}.books__content__card__description__price{font-size:11px;line-height:14px;margin-left:15px}.books__content__card__description__button-cart{width:135px;height:35px;margin-left:15px}.books__content__categories__list{max-width:200px;text-align:left}}@media(max-width: 500px){.books__content__categories__list{min-width:100%}.active__link{-webkit-text-decoration:underline;text-decoration:underline}.books__content-wrap{display:block}.books__content__card-wrapper{margin-left:50px;margin-top:30px}.books__btn-load{margin-left:130px}}*,*::before,*::after{box-sizing:border-box}h3{margin:0}body{font-family:"Montserrat",sans-serif;margin:0;font-weight:500;background:#fff;overflow-x:hidden}a{-webkit-text-decoration:none;text-decoration:none;display:inline-block}li{list-style-type:none}.container{max-width:1105px;margin:0 auto}

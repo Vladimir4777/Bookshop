@@ -1,0 +1,202 @@
+.books {
+    margin-top: 50px;
+    overflow-x: hidden;
+    
+}
+
+.books__content__categories {
+    min-width: 350px;
+
+    .books__content__categories__list {
+
+        font-size: 12px;
+        left: 0px;
+        position: relative;
+        background-color: #EFEEF6;
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        line-height: 15px;
+        list-style: none;
+        & ::marker {
+            color: #9E98DC;
+            font-size:  20px;
+        }
+
+        .books__content__categories__list__item {
+            color: #5C6A79;
+            cursor: pointer;
+            margin-bottom: 23px;
+            font-size: 15px;
+        } 
+        .books__content__categories__list__item:hover {
+           font-size: 18px;
+           font-weight: 700;
+           transition: .2s ease-in;
+        } 
+        .books__content__categories__list__item:focus {
+            font-size: 18px;
+            font-weight: 700;
+         } 
+
+        .active__link {
+            font-weight: 700;
+            list-style: disc;
+        }
+    }
+}
+.books__content__card-wrapper{
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 95px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.books__content__card-wrapper:nth-child(even){
+    margin-right: 0;
+}
+
+
+.books__content__card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.books__content__card__image {
+    width: auto;
+    height: 100%;
+    filter: drop-shadow(5px 5px 10px rgba(128, 128, 128, 0.402));
+}
+.books__content__card__description {
+    max-width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #5C6A79;
+    display: flex;
+    flex-direction: column;
+    
+
+    color: #5C6A79;
+  
+}
+
+
+.books__content__card__description__authors {
+    margin-bottom: 5px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.books__content__card__description__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C2A39;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+.books__content__card__description__rating{
+    color: goldenrod;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.books__content__card__description__text {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.books__content__card__description__price {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1C2A39;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.books__content__card__description__button-cart {
+    width: 155px;
+    height: 35px;
+    margin-left: 35px;
+    background: #FFFFFF;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #4C3DB2;
+    cursor: pointer;
+    border: 1px solid #4C3DB2;
+    
+
+}
+.books__content__card__description__button-cart:hover,.books__btn-load:hover {
+    background: #6757cf;
+    color: #FFFFFF;
+    opacity: 0.8;
+    transition: .5s ease-in;
+}
+.books__btn-load {
+    width: 155px;
+    height: 38px;
+    background: #FFFFFF;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #4C3DB2;
+    cursor: pointer;
+    border: 1px solid #4C3DB2;
+    margin-left: 700px;
+    margin-bottom: 30px;
+}
+.active__btn {
+    border-color: #EEEDF5;
+    color: #5C6A79;
+}
+.books__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 160px;
+    margin-top: 80px;
+    
+}
+
+
+.main__books__content {
+    position: relative;
+    top: 0;
+    left: -50px;
+    width: 424px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.books__content-wrap {
+    display: flex;
+ }
+
+
+
+
+
+
+ .books__section-wrapper {
+    display: flex;
+ }
+ 
+
