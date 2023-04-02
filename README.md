@@ -9,10 +9,10 @@
 
 :white_check_mark: Поработать над правильной организацией проекта.
 
-:white_check_mark: реализовать модульную структуру;
+:white_check_mark: Реализовать модульную структуру;
 
-:white_check_mark: подключить Webpack;
+:white_check_mark: Подключить Webpack;
 
-:white_check_mark: настроить сборку с минификацией.
+:white_check_mark: Настроить сборку с минификацией.
 
 :white_check_mark: Применить пройденные вами ранее инструменты оптимизации.
